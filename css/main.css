@@ -1,0 +1,389 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Top page navigation*/
+.topnav ul {
+	float: right;
+	margin-bottom: 30px;
+}
+.topnav li {
+	display: inline-block;
+	margin: 5px;
+	
+}
+.topnav a{
+	text-decoration: none;
+	color: #369;
+}
+/* Top header content*/
+
+#logo{
+	width: 35%;
+}
+.mainheader {
+	text-align: center;
+	margin: 0 auto;
+	width: 65%;
+	clear: both;
+}
+.mainheader h1{
+	font-size: 50px;
+	margin: 15px;
+}
+.mainheader h2{
+	font-size: 18px;
+}
+/* Three selling sections*/
+.sellingpoints{
+	text-align: center;
+	margin: 25px auto;
+	width: 60%;
+}
+.productbox {
+	margin: 10px 30px;
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+	float: left;
+	border:1px solid #cec8c8;
+	border-radius: 10px;
+}
+.productbox h1{
+	margin-top: 0;
+	font-size: 22px;
+	text-decoration: underline;
+	color: #369;
+}
+.productbox h2 {
+	font-size: 16px;
+	color: #c00;
+}
+.productbox p{
+
+}
+hr{
+	background: url("../img/hr.png") no-repeat scroll 50% 50%;
+	clear: both;
+    border: 0;
+    height: 60px;
+    margin: 20px 0;
+	
+}
+.customer{
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+	position: relative;
+}
+.customer h1{
+	color: #232323;
+    font-size: 35px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.customer p{
+	width: 80%;
+	font-size: 18px;
+	text-align: left;
+    color: #666;
+    margin-bottom: 20px;
+}
+.customerimg {
+	position: absolute;
+	left:-450px;
+	top: 70px;
+}
+.customerimg a{
+	display: block;
+    width: 145px;
+    height: 105px;
+    background: url("img/customers.png");
+    text-indent: -1000em;
+}
+.globe img{
+	float: right;
+	width: 40%;
+}
+/*Column List Section(no section was created for some reason)*/
+.motto{
+	text-align: center;
+	margin: 0 auto;
+	width: 65%;
+	clear: both;
+}
+div.motto{
+	text-align: center;
+	margin: 0 auto;
+	width: 65%;
+	clear: both;
+}
+.motto h2 {
+	color: #232323;
+    font-size: 40px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.motto h3{
+	font-size: 50px;
+	color: #369;
+	float: left;
+	margin: -5px 15px 15px 0;
+}
+.motto h4{
+ 	color: #c00;
+	font-size: 18px;
+	text-align: left;
+	margin: 0;
+}
+.motto p {
+	font-size: 11px;
+	text-align: left;
+}
+.column {
+	width: 47%;
+	margin-right: 25px;
+	float: left;
+}
+.column2 {
+	width: 47%;
+	margin-right: 0px;
+	float: left;
+}
+.reworked{
+	text-align: center;
+	margin: 0 auto;
+	width: 65%;
+	clear: both;
+}
+.reworked h2{
+	color: #232323;
+    font-size: 40px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.reworked h6{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.reworkimg {
+	float: left;
+	width: 30%
+	margin-right:10px;
+	margin-top: -30px;
+}
+.reworked p{
+	color: #afaaaa;
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 60px;
+}
+.offers {
+	text-align: center;
+	margin: 0 auto;
+	width: 65%;
+	clear: both;
+}
+.offers h2{
+	color: #232323;
+    font-size: 40px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.offers .column .column2 {
+	float: left;
+    width: 300px;
+    margin-right: 30px;
+    margin-left: 110px;
+    text-align: center;
+}
+.offers h4 {
+	color: #c00;
+	font-size: 18px;
+	border-bottom: 1px solid #afaaaa;
+	padding-bottom: 3px;
+	margin: 5px 0;
+}
+.offers ul {
+	list-style: none;
+	padding: 0;
+	font-size: 13px;
+}
+.offers li {
+	
+	padding-top: 5px;
+
+}
+.offers a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+
+}
+.bottomnav {
+	text-align: center;
+	width: 30%:
+	margin 0 auto;
+}
+.bottomnav h4{
+	color: #c00;
+	font-size: 16px;
+}
+.bottomnav h6{
+	font-size: 13px;
+	margin: 15px;
+	color: #369;
+}
+.footer{
+	text-align: center;
+	width: 100%;
+	font-size: 12px;
+}
+.footer h6{
+	color: #afaaaa;
+	display: inline-block;
+	font-size: 12px;
+}
+.footer a{
+	color: #369;
+	text-decoration: none;
+}
+/* Responsive */
+
+@media (min-width: 650px) and (max-width: 2000px){
+
+	.sellingpoints{
+		width: 80%;
+		margin-left: 15%;
+	}
+	.customer{
+
+	}
+	img{
+		width: 100%;
+	}
+	.productbox{
+		margin: 10px 20px;
+    	width: 21%;
+	}
+	.motto {
+		width: 70%;
+	}
+	.motto h4{
+		font-size: 16px;
+	}
+	.motto h3{
+		font-size: 40px;
+	}
+	.motto p{
+		overflow: auto;
+	}
+	.reworked h2, .offers h2, .motto h2, .mainheader h1{
+		font-size: 35px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 649px){
+	.sellingpoints{
+		width: 60%;
+		text-align: center;
+    	margin: auto 23%;
+	}
+	.sellingpoints img{
+		width: 110%;
+	}
+	.customer{
+
+	}
+	img{
+		width: 100%;
+	}
+	.productbox{
+		margin: 10px 20px;
+    	width: 40%;
+    	padding: 10% 20%;
+
+	}
+	.productbox h2{
+	font-size: 16px;
+    color: #c00;
+    text-align: center;
+	}
+	.motto {
+		width: 70%;
+	}
+	.motto div {
+		width: 90%;
+		margin-left: 5%;
+	}
+	.motto h4{
+		font-size: 16px;
+	}
+	.motto h3{
+		font-size: 40px;
+	}
+	.motto p{
+		overflow: auto;
+	}
+	.reworked h2, .offers h2, .motto h2, .mainheader h1{
+		font-size: 20px;
+	}
+	.mainheader h2{
+		font-size: 12px;
+	}
+	.mainheader{
+		width: 80%;
+	}
+	.customer h1{
+		font-size: 20px;
+	}
+	.customer p{
+		font-size: 16px;
+		text-align: center;
+		width: 100%;
+	}
+	.globe img{
+		text-align: center;
+		margin-right: 30%;
+	}
+	.reworkimg{
+		width: 50%;
+		text-align: center;
+		display: block;
+	}
+	.column, .column2 {
+    width: 90%;
+    margin: auto 5%;
+	}
+	hr {
+		height: 20px;
+	}
+	#logo {
+    width: 35%;
+    margin: 0 35%;
+	}
+	.topnav ul {
+		font-size: 13px;
+		float: left;
+		padding-left: 10%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
